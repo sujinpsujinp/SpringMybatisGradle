@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class SawonController {
 	@GetMapping({"/","/list"})
-	public String sawonList()
+	public String sawonlist()
 	{
 		return "sawon/sawonlist";		
 	}
